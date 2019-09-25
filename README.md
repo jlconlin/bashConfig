@@ -10,16 +10,16 @@ git clone https://github.com/jlconlin/bashConfig .bash
 You need to create two files:
 
 **`~/.bash_profile`**
-```
-if [ -f ~/.bashrc/bash_profile ]; then
-   source ~/.bashrc/bash_profile
+```bash
+if [ -f ~/.bashrc/bash_profile.bash ]; then
+   source ~/.bashrc/bash_profile.bash
 fi
 ```
 
 **`~/.bashrc`**
-```console
-if [ -r ~/.bash/bashrc ]; then
-        source ~/.bash/bashrc
+```bash
+if [ -r ~/.bash/bashrc.bash ]; then
+        source ~/.bash/bashrc.bash
 fi
 ```
 
