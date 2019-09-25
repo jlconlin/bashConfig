@@ -21,9 +21,9 @@ elif [[ "$OSTYPE" == "linux-gnu" ]]; then
 fi
 
 # Source sub files
-source $BASHRC/prompt.bash
-source $BASHRC/tree.bash
-source $BASHRC/man2pdf.bash
+source $BASHRC/bash/prompt.bash
+source $BASHRC/bash/tree.bash
+source $BASHRC/bash/man2pdf.bash
 
 # Provide opportunity to make local changes
 if [ -f ~/.bashrc.local ]; then
