@@ -8,10 +8,11 @@ export HISTSIZE=$HISTFILESIZE
 export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
-## PAGER, set
 export PAGER=less
-
 export EDITOR=`which vim`
+
+# LaTeX
+export TEXMFHOME=$HOME/texmf
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   source $BASHRC/osx.bash
@@ -22,6 +23,7 @@ fi
 # Source sub files
 source $BASHRC/prompt.bash
 source $BASHRC/tree.bash
+source $BASHRC/man2pdf.bash
 
 # Provide opportunity to make local changes
 if [ -f ~/.bashrc.local ]; then
