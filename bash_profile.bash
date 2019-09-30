@@ -1,5 +1,3 @@
-# .bash_profile
-
-if [ -f ~/.bash/bashrc ]; then
-   source ~/.bash/bashrc
+if [ -f ~/.bash/bashrc.bash ]; then
+   source ~/.bash/bashrc.bash
 fi

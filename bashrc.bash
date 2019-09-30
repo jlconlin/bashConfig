@@ -9,7 +9,6 @@ export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
 export PAGER=less
-export EDITOR=`which vim`
 
 # LaTeX
 export TEXMFHOME=$HOME/texmf
