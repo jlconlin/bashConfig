@@ -23,6 +23,8 @@ fi
 source $BASHRC/bash/prompt.bash
 source $BASHRC/bash/tree.bash
 source $BASHRC/bash/man2pdf.bash
+source $BASHRC/bash/colors.bash
+source $BASHRC/bash/njoyclone.bash
 
 # Provide opportunity to make local changes
 if [ -f ~/.bashrc.local ]; then
