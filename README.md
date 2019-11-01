@@ -6,7 +6,14 @@ Clone repository into your `$HOME` directory and name it `.bash`
 ```console
 git clone git@github.com:jlconlin/bashConfig .bash
 ```
+After cloning execute the command
+```console
+./.bash/install.sh
+```
+This creates `.bash_profile` and `.bashrc` files as described in the manual installation section.
 
+
+## Manual installation
 You need to create two files:
 
 **`~/.bash_profile`**
