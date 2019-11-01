@@ -4,15 +4,15 @@ My personal bash configuration files. It is here primarily for my benefit. If yo
 ## Installation
 Clone repository into your `$HOME` directory and name it `.bash`
 ```console
-git clone https://github.com/jlconlin/bashConfig .bash
+git clone git@github.com:jlconlin/bashConfig .bash
 ```
 
 You need to create two files:
 
 **`~/.bash_profile`**
 ```bash
-if [ -f ~/.bashrc/bash_profile.bash ]; then
-   source ~/.bashrc/bash_profile.bash
+if [ -f ~/.bash/bash_profile.bash ]; then
+   source ~/.bash/bash_profile.bash
 fi
 ```
 
