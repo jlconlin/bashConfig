@@ -30,3 +30,5 @@ source $BASHRC/bash/njoyclone.bash
 if [ -f ~/.bashrc.local ]; then
    source ~/.bashrc.local
 fi
+
+source $BASHRC/bash/powerline.bash
