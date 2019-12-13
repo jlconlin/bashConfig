@@ -20,6 +20,7 @@ elif [[ "$OSTYPE" == "linux-gnu" ]]; then
 fi
 
 # Source sub files
+source $BASHRC/bash/textformatting.bash
 source $BASHRC/bash/prompt.bash
 source $BASHRC/bash/tree.bash
 source $BASHRC/bash/man2pdf.bash
@@ -30,3 +31,5 @@ source $BASHRC/bash/njoyclone.bash
 if [ -f ~/.bashrc.local ]; then
    source ~/.bashrc.local
 fi
+
+source $BASHRC/bash/powerline.bash
