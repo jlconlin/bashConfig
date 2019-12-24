@@ -2,6 +2,9 @@
 
 export BASHRC=$HOME/.bash
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 ## HISTORY, configure
 export HISTFILESIZE=10000
 export HISTSIZE=$HISTFILESIZE
