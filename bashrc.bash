@@ -11,7 +11,8 @@ export HISTSIZE=$HISTFILESIZE
 export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
-export PAGER=less
+alias vless="vim -u ~/.vim/less.vim"
+export PAGER=vless
 
 # LaTeX
 export TEXMFHOME=$HOME/texmf
