@@ -36,4 +36,5 @@ if [ -f ~/.bashrc.local ]; then
    source ~/.bashrc.local
 fi
 
+source $BASHRC/bash/python.bash
 source $BASHRC/bash/powerline.bash
