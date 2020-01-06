@@ -11,7 +11,8 @@ export HISTSIZE=$HISTFILESIZE
 export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
-export PAGER=less
+alias vless="vim -u ~/.vim/less.vim"
+export PAGER=vless
 
 # LaTeX
 export TEXMFHOME=$HOME/texmf
@@ -35,4 +36,5 @@ if [ -f ~/.bashrc.local ]; then
    source ~/.bashrc.local
 fi
 
+source $BASHRC/bash/python.bash
 source $BASHRC/bash/powerline.bash
