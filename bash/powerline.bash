@@ -5,5 +5,6 @@ if [ $? -eq 0 ]; then
   powerline-daemon -q
   export POWERLINE_BASH_CONTINUATION=1
   export POWERLINE_BASH_SELECT=1
+  export POWERLINE_CONFIG_COMMAND=`which powerline-config`
   . $POWERLINE_ROOT/powerline/bindings/bash/powerline.sh
 fi
