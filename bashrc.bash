@@ -36,7 +36,7 @@ if [ -f ~/.bashrc.local ]; then
    source ~/.bashrc.local
 fi
 
-alias gvim=`vim -g`
+alias gvim='vim -g'
 
 source $BASHRC/bash/python.bash
 source $BASHRC/bash/powerline.bash
