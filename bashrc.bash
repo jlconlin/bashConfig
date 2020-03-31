@@ -12,10 +12,12 @@ export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
 alias vless="vim -u ~/.vim/less.vim"
-export PAGER=vless
+# export PAGER=vless
 
 # LaTeX
 export TEXMFHOME=$HOME/texmf
+
+export TERM=xterm-256color-italic
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   source $BASHRC/osx.bash
