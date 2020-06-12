@@ -11,6 +11,8 @@ export HISTSIZE=$HISTFILESIZE
 export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
+export DISPLAY=":0.0"
+
 alias vless="vim -u ~/.vim/less.vim"
 # export PAGER=vless
 
