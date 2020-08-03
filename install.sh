@@ -7,9 +7,6 @@ if [ -f ~/.bash/bash_profile.bash ]; then
 fi
 EOF
 
-# Enabling italics (I hope)
-tic ~/.bash/xterm-256color-italic.terminfo 
-
 cat << EOF > ~/.bashrc
 if [ -r ~/.bash/bashrc.bash ]; then
         source ~/.bash/bashrc.bash

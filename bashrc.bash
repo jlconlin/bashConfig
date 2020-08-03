@@ -19,7 +19,7 @@ alias vless="vim -u ~/.vim/less.vim"
 # LaTeX
 export TEXMFHOME=$HOME/texmf
 
-export TERM=xterm-256color-italic
+export TERM=xterm-256color
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
   source $BASHRC/osx.bash
