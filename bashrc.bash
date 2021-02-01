@@ -11,10 +11,13 @@ export HISTSIZE=$HISTFILESIZE
 export HISTCONTROL=ignoredups:erasedups
 export HISTIGNORE="&:bg:fg:ll:h"
 
-export DISPLAY=":0.0"
+# export DISPLAY=":0.0"
 
 alias vless="vim -u ~/.vim/less.vim"
 # export PAGER=vless
+
+alias ls='ls -AG'
+alias ll='ls -lhG'
 
 # LaTeX
 export TEXMFHOME=$HOME/texmf
@@ -42,5 +45,6 @@ fi
 
 alias gvim='vim -g'
 
+source $BASHRC/bash/proxy.bash
 source $BASHRC/bash/python.bash
-source $BASHRC/bash/powerline.bash
+# source $BASHRC/bash/powerline.bash
