@@ -1,4 +1,5 @@
 # .bashrc
+printf "Executing ~/.bash/bashrc.bash\n"
 
 export BASHRC=$HOME/.bash
 
@@ -32,7 +33,7 @@ fi
 
 # Source sub files
 source $BASHRC/bash/textformatting.bash
-source $BASHRC/bash/prompt.bash
+# source $BASHRC/bash/prompt.bash
 source $BASHRC/bash/tree.bash
 source $BASHRC/bash/man2pdf.bash
 source $BASHRC/bash/colors.bash
@@ -47,4 +48,3 @@ alias gvim='vim -g'
 
 source $BASHRC/bash/proxy.bash
 source $BASHRC/bash/python.bash
-# source $BASHRC/bash/powerline.bash
